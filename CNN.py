@@ -29,7 +29,7 @@ for i in range(15) :
 X_train = x_train.reshape(x_train.shape[0], 1, 28, 28)
 X_test = x_test.reshape(x_test.shape[0], 1, 28, 28)
 
-# CONVERT TO FLOAT SO THAT WE WILL DECIMAL POINTS AFTER DIVISION
+# CONVERT TO FLOAT SO THAT WE WILL HAVE DECIMAL POINTS AFTER DIVISION
 
 X_train = X_train.astype('float32')
 X_test = X_test.astype('float32')
