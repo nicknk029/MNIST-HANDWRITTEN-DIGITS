@@ -21,7 +21,7 @@ plt.figure( figsize= ( 15, 15 ) )
 
 for i in range( 15 ) :   
     plt.subplot( 3, 5, i+1 )
-    plt.imshow( x_train[i], cmap='gray' )
+    plt.imshow( x_train[i], cmap = 'gray' )
     plt.title( y_train[i], fontsize = 20 )
     
 # RESHAPING
